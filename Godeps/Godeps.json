@@ -1,10 +1,7 @@
 {
 	"ImportPath": "github.com/google/cadvisor",
 	"GoVersion": "go1.8",
-	"GodepVersion": "v79",
-	"Packages": [
-		"./..."
-	],
+	"GodepVersion": "v80",
 	"Deps": [
 		{
 			"ImportPath": "cloud.google.com/go/compute/metadata",
@@ -136,6 +133,16 @@
 		},
 		{
 			"ImportPath": "github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil",
+			"Comment": "v1.6.10",
+			"Rev": "63ce630574a5ec05ecd8e8de5cea16332a5a684d"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/service/sqs",
+			"Comment": "v1.6.10",
+			"Rev": "63ce630574a5ec05ecd8e8de5cea16332a5a684d"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/service/sqs/sqsiface",
 			"Comment": "v1.6.10",
 			"Rev": "63ce630574a5ec05ecd8e8de5cea16332a5a684d"
 		},
